@@ -7,6 +7,7 @@ import 'package:lec12to2/Modal.dart';
 import 'User.dart';
 void main() {
 
+  print("hello");
   //1.
   runApp(GetMaterialApp(
     home: demo(),
@@ -38,8 +39,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
 class demo extends StatefulWidget {
   const demo({Key? key}) : super(key: key);
 
